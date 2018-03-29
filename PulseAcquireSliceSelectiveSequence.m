@@ -19,6 +19,7 @@ function [ PS,ADC ] = PulseAcquireSliceSelectiveSequence(varargin)
 % ADC - The readout times
 
 import HypWright.*
+import HypWrightSequences.*
 %% Parse Inputs
 p = inputParser;
 addParameter(p,'nPoints',512); % Number of readout points per TR

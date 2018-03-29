@@ -10,6 +10,7 @@ function [returnPulse, gradPulse] = RFPulseSelector(t,gamma,B0,pulseType,pulsePa
 % returnPulse - the RF RF-pulse to be used in simulation
 gradPulse = [];
 import HypWright.*
+import HypWrightSequences.*
 p = inputParser;
 addParameter(p,'name','noName'); % Optional Name for the pulse
 parse(p,varargin{:});

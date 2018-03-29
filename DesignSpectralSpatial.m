@@ -1,7 +1,7 @@
 function [ pulseParams ] = DesignSpectralSpatial( mets,varargin )
 %DESIGNSPECTRALSPATIAL Designs a spectral spatial pulse using UCSF code
 %   Detailed explanation goes here
-
+import HypWrightSequences.*
 %% Parse Inputs
 p = inputParser;
 addParameter(p,'ss_type','EP Whole'); % Excitation Type

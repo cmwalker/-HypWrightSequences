@@ -6,6 +6,7 @@ function output = FillDefaults(input,defaults)
 % defaults - The default parameter vaules
 % Outputs:
 % outputs - The filled parameter structure
+import HypWrightSequences.*
 tmpNames = fieldnames(defaults);
 output = input;
 for j = 1:numel(tmpNames)
